@@ -23,13 +23,13 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="root-container relative overflow-hidden">
+      <body className="root-container relative overflow-scroll">
         <div className="grid18 main-container m-auto max-w-9xl">
           <header className="grid18 col-span-full gap-x-4 border-b-[1px] border-custom-grey-400">
             <Header />
           </header>
           <main className="grid18 col-span-full gap-x-4">{children}</main>
-          <footer className="grid18 col-span-full border-t-[1px] border-custom-grey-400">
+          <footer className="grid18 col-span-full border-t-[1px] border-custom-grey-400 bg-custom-grey-800">
             <Footer />
           </footer>
         </div>

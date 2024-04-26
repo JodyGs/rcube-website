@@ -10,7 +10,7 @@
   }
 
   .root-container {
-    @apply max-w-[100vw] overflow-x-hidden bg-custom-grey-700 text-white;
+    @apply bg-custom-grey-600 max-w-[100vw] overflow-x-hidden text-white;
   }
 
   .grid16 {
