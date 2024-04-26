@@ -28,7 +28,7 @@ export default function RootLayout({
             {/* <Header /> */}
           </nav>
           <main className="grid18 col-span-full">{children}</main>
-          <footer className="grid18 border-t-[1px] border-custom-grey-400">
+          <footer className="grid18 col-span-full border-t-[1px] border-custom-grey-400">
             <Footer />
           </footer>
         </div>
