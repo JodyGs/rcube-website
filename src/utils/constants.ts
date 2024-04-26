@@ -1,18 +1,45 @@
 export const NAVIGATION = {
   legal: [
-    { name: "Privacy Policy", href: "/privacy" },
-    { name: "Terms and conditions", href: "/terms-of-use-gdpr" },
+    { name: "Politique d’engagement actionnarial", href: "#" },
+    { name: "Report annuel d’engagement actionnarial 2021", href: "#" },
+    { name: "Gestion de risques et de conflits d’intérêt", href: "#" },
+    { name: "Politique ESG", href: "#" },
+    { name: "Politique RGPD", href: "#" },
+    { name: "Sélection et évaluation des intermédiaires", href: "#" },
+    { name: "Réclamations", href: "#" },
   ],
   social: [
     {
-      name: "Twitter",
+      name: "X",
       href: "#",
     },
     {
       name: "LinkedIn",
       href: "#",
     },
-    { name: "Contact us", href: "/contact-us" },
+    { name: "Newsletter", href: "#" },
+  ],
+  rcubeInfos: [
+    {
+      name: "1",
+      firstLine: "9 Avenue Franklin Roosevelt",
+      secondLine: "75008 Paris",
+    },
+    {
+      name: "2",
+      firstLine: "RCUBE ASSET MANAGEMENT",
+      secondLine: "SAS au capital de 504 600 €",
+    },
+    {
+      name: "3",
+      firstLine: "AMF n°: GP13000027",
+      secondLine: "NFA ID: 0465827",
+    },
+    {
+      name: "4",
+      firstLine: "info@rcube.com",
+      secondLine: "+33 1 42 21 94 55",
+    },
   ],
   // anchor: [
   //   { name: "Mission", href: "#mission", offset: "0px" },

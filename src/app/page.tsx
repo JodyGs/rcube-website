@@ -1,3 +1,3 @@
 export default function HomePage() {
-  return <>HRZN_</>;
+  return <div className="font-inter">HRZN_</div>;
 }

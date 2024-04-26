@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
 // import { ButtonGroupProps } from "react-multi-carousel/lib/types";
 import { motion } from "framer-motion";
+import { CONTAINER_VARIANTS, ITEM_VARIANTS } from "~/utils/anim";
 // import { CONTAINER_VARIANTS, ITEM_VARIANTS } from "~/utils/anim";
 
 type CardProps = {
@@ -13,24 +14,18 @@ type CardProps = {
   placeholder: string;
 };
 
-const DATA_SPEAKERS = [
+const DATA_MEMBERS = [
   {
-    name: "Dan Biton",
-    title: "CEO at Starchain Gazer",
+    name: "Cyril Castelli",
+    title: "Founder & CEO",
     img: "/images/speakers/DanBiton.webp",
     placeholder: "/images/speakers/DanBiton-placeholder.webp",
   },
   {
-    name: "Pierre Laurent",
-    title: "Co-Founder at Atka",
+    name: "Cédric Pancrazi",
+    title: "Managing Director",
     img: "/images/speakers/DanBiton.webp",
     placeholder: "/images/speakers/PierreLaurent-placeholder.webp",
-  },
-  {
-    name: "William Piquard",
-    title: "Co-Founder at Atka",
-    img: "/images/speakers/DanBiton.webp",
-    placeholder: "/images/speakers/WilliamPiquard-placeholder.webp",
   },
 ];
 
@@ -102,7 +97,7 @@ export default function Speakers() {
       whileInView="onscreen"
       viewport={{ once: true }}
       variants={CONTAINER_VARIANTS}
-      id="speakers"
+      id="Our Team"
       className="grid18 relative col-span-full px-2 pb-20 md:col-span-full xl:py-[280px]"
     >
       <motion.div
@@ -120,7 +115,7 @@ export default function Speakers() {
           <SectionHeading
             className="col-span-full"
             title="Speakers"
-            description="Lorem ipsum dolor sit amet consectetur. Interdum nunc sem facilisis egestas mauris. Et amet vehicula nulla ullamcorper venenatis dictum velit. Sit adipiscing aliquam lectus volutpat suspendisse. Sit lacus diam egestas ut."
+            description="Lorem ipsum dolor sit amet consectetur. Cras viverra in nunc interdum arcu nunc."
           />
           <motion.div
             variants={ITEM_VARIANTS}
@@ -152,7 +147,7 @@ export default function Speakers() {
             variant="secondary"
             className="col-span-full mt-8 hidden w-full md:block md:w-fit"
           >
-            Become a speaker
+            Contact us
           </Button>
         </motion.div>
         <motion.div
@@ -224,7 +219,7 @@ export default function Speakers() {
           variant="secondary"
           className="col-span-full mt-8 w-full md:hidden md:w-fit"
         >
-          Become a speaker
+          Contact us
         </Button>
       </motion.div>
     </motion.section>

@@ -2,15 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "./fonts.css";
+
 @layer base {
+  html {
+    @apply font-inter;
+  }
+
   .root-container {
-    @apply bg-custom-grey-700 max-w-[100vw] overflow-x-hidden text-white;
+    @apply max-w-[100vw] overflow-x-hidden bg-custom-grey-700 text-white;
   }
 
   .grid16 {
-    @apply md:grid-cols-16 md:col-end-18 grid grid-cols-4 gap-4 md:col-start-2;
+    @apply grid grid-cols-4 gap-4 md:col-start-2 md:col-end-18 md:grid-cols-16;
   }
   .grid18 {
-    @apply md:grid-cols-18 md:col-end-18 grid grid-cols-4 gap-x-4 md:col-start-1;
+    @apply grid grid-cols-4  md:col-start-1 md:col-end-18 md:grid-cols-18;
   }
 }
