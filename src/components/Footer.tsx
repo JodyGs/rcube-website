@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="col-span-6 pb-[120px]">
-        <h4 className="font-satoshi px-12 py-20 text-3xl">Legal</h4>
+        <h4 className="font-satoshi px-12 py-20 text-3xl">Social</h4>
         <div className="space-y-4">
           <ul>
             {NAVIGATION.social.map(({ name, href }) => (
