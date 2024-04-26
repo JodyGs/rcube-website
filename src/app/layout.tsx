@@ -1,4 +1,5 @@
-import Footer from "~/components/Footer";
+import Footer from "~/components/sections/Footer";
+import Header from "~/components/sections/Header";
 import "~/styles/globals.css";
 
 export const metadata = {
@@ -24,10 +25,10 @@ export default function RootLayout({
       </head>
       <body className="root-container relative overflow-hidden">
         <div className="grid18 main-container m-auto max-w-9xl">
-          <nav className="col-span-full md:col-start-2 md:col-end-18">
-            {/* <Header /> */}
-          </nav>
-          <main className="grid18 col-span-full">{children}</main>
+          <header className="grid18 col-span-full gap-x-4 border-b-[1px] border-custom-grey-400">
+            <Header />
+          </header>
+          <main className="grid18 col-span-full gap-x-4">{children}</main>
           <footer className="grid18 col-span-full border-t-[1px] border-custom-grey-400">
             <Footer />
           </footer>

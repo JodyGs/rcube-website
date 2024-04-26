@@ -7,9 +7,9 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <div className="col-span-6 space-y-8 px-12 py-20 text-custom-grey-300">
+      <div className="col-span-5 col-start-2 space-y-8 py-20 text-custom-grey-300">
         <RcubeLogo className="w-[144px] " />
-        <h3 className="leading-6">
+        <h3 className="min-h-[171px] max-w-[344px] leading-6">
           The  360° platform for asset management entrepreneurs.
         </h3>
         <div>
