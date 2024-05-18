@@ -30,3 +30,16 @@ export function Arrow(props: React.ComponentProps<"svg">) {
     </svg>
   );
 }
+
+export function BurgerMenu(props: React.ComponentProps<"svg">) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 16 16"
+    >
+      <path fill="#fff" d="M0 3h12v1H0zm0 9h8v1H0zm0-4.5h16v1H0z"></path>
+    </svg>
+  );
+}

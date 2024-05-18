@@ -11,7 +11,7 @@ export type CategoryProps = {
 
 export default function Card({ strategyName, description }: CardProps) {
   return (
-    <div className=" bg-custom-grey-700">
+    <div className="bg-custom-grey-700">
       <div className="min-h-[240px]"></div>
       <div className="space-y-4 bg-custom-grey-500 p-8">
         <h3 className="text-xl leading-8">{strategyName}</h3>

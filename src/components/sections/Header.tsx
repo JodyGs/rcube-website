@@ -2,6 +2,7 @@ import React from "react";
 import { RcubeLogo } from "~/svgs";
 import Button from "../buttons/Button";
 import Link from "next/link";
+import { BurgerMenu } from "../../svgs/index";
 
 export default function Header() {
   return (
@@ -11,7 +12,9 @@ export default function Header() {
         size="default"
         className="col-span-2 border-r-[1px] border-custom-grey-400"
       >
-        <div>_</div>
+        <div>
+          <BurgerMenu className="h-4 w-4" />
+        </div>
         <div className="font-satoshi text-xs uppercase leading-4">Browse</div>
       </Button>
       <div className="col-span-14 col-start-3 col-end-17">

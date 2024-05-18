@@ -1,5 +1,5 @@
 import React from "react";
-import Card, { CategoryProps, CardProps } from "./Card";
+import { CategoryProps } from "./Card";
 import StrategySection from "./StrategySection";
 
 const CATEGORIES: CategoryProps[] = [
@@ -69,7 +69,7 @@ export default function Strategies() {
   return (
     <>
       {CATEGORIES.map((cat, index) => (
-        <StrategySection key={index} title={cat.title} cards={cat.cards} />
+        <StrategySection key={cat.title} title={cat.title} cards={cat.cards} />
       ))}
     </>
   );
