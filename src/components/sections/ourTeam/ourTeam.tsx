@@ -26,7 +26,7 @@ export default function OurTeam() {
         </Button>
       </div>
       <div className="col-span-11 bg-red-300">
-        <div className="group relative h-[552px] w-[384px] bg-gray-600 hover:bg-gray-200">
+        <div className="group relative h-[552px] w-[384px] bg-custom-grey-600 hover:bg-custom-grey-200">
           <Image
             fill
             placeholder="blur"
@@ -35,7 +35,7 @@ export default function OurTeam() {
             src={"/Img/OurTeam/Cyril_Castelli.webp"}
             alt=""
           />
-          <div className="absolute bottom-0 w-full space-y-2 bg-gray-600 px-10 py-8">
+          <div className="absolute bottom-0 w-full space-y-2 bg-custom-grey-600 px-10 py-8">
             <h4 className="text-2xl font-bold">Cyril Castelli</h4>
             <p className="font-inter text-xl text-gray-200 transition-colors group-hover:text-custom-gold-400">
               Founder & CEO

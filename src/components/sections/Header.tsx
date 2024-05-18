@@ -3,10 +3,12 @@ import { RcubeLogo } from "~/svgs";
 import Button from "../buttons/Button";
 import Link from "next/link";
 import { BurgerMenu } from "../../svgs/index";
+import SideBar from "../sideBar/SideBar";
 
 export default function Header() {
   return (
     <>
+      <SideBar />
       <Button
         variant="primary"
         size="default"
